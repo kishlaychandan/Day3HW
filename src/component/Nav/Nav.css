@@ -40,3 +40,18 @@
         font-size: 0.7rem;
     }
 }
+.logo{
+    animation: logo 4s linear infinite;
+}
+
+@keyframes logo {
+    0%{
+        color: rgb(249, 47, 81);
+    }
+    50%{
+        color: rgb(254, 67, 98);
+    }
+    100%{
+        color: rgb(249, 47, 81);
+    }
+}

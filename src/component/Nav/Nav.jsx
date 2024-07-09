@@ -3,7 +3,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <div className="header">
-      <h1>Family Wellness</h1>
+      <h1 className="logo">Family Wellness</h1>
       <p>MASSAGE THERAPY</p>
       <ul>
         <li>HOME</li>
