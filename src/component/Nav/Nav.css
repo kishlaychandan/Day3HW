@@ -58,12 +58,12 @@
 }
 @keyframes header {
     0%{
-        color: rgb(239, 249, 47);
+        background-color: rgb(239, 249, 47);
     }
     50%{
-        color: rgb(254, 67, 67);
+        background-color: rgb(254, 67, 67);
     }
     100%{
-        color: rgb(47, 71, 249);
+        background-color: rgb(47, 71, 249);
     }
 }
