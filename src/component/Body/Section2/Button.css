@@ -1,0 +1,9 @@
+.section2 .main .buttons .btn{
+    /* background-color: aqua; */
+    background-color: transparent;
+    min-width: 10rem;
+    padding: 0.7rem 1.2rem;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}

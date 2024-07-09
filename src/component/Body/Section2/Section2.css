@@ -1,0 +1,42 @@
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 66, 97);
+}
+.section2 .main{
+    padding: 5rem;
+    width: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+}
+.section2 .main h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.section2 .main p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.section2 .main .buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width:811px) {
+    .section2 .main{
+        width: 80%;
+        padding: 2rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .section2 .main{
+        width: 95%;
+        padding: 1.2rem ;
+    }
+}
