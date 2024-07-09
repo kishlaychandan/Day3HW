@@ -66,4 +66,7 @@
     60%{
         background-color: rgb(47, 71, 249);
     }
+    90%{
+        background-color: yellow;
+    }
 }
